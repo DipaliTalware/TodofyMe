@@ -49,7 +49,7 @@ const AddTaskForm = ({ onSubmit }) => {
 					<select
 						name='priority'
 						value={addTask.priority}
-						className='h-11 mt-5 border-2 border-teal-500'
+						className='h-11 mt-5 border-2 border-teal-500 px-6'
 						onChange={taskInput}
 					>
 						<option disabled value=''>
